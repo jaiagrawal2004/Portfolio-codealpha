@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Agrawal | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Background Music -->
+    <audio id="music" loop>
+        <source src="music/background.mp3">
+    </audio>
+
+    <button id="musicBtn">
+        <i class="fa-solid fa-music"></i>
+    </button>
+
+    <!-- Top Button -->
+    <button id="topBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Navbar -->
+    <nav>
+
+        <div class="logo">
+            JAI AGRAWAL
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#timeline">Journey</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#certificate">Certificates</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeBtn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-image">
+        <img src="images/profile.jpg"
+             alt="Jai Agrawal">
+    </div>
+
+        <div class="hero-content" data-aos="fade-up">
+
+            <h1>
+                Hi, I'm
+                <span>Jai Agrawal</span>
+            </h1>
+
+            <h2 id="typing"></h2>
+
+            <p>
+                Java Backend Developer specializing in
+                Spring Boot, React and Full Stack Development.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="https://github.com/jaiagrawal2004" target="_blank">
+    <button class="btn">
+        <i class="fab fa-github"></i> GitHub
+    </button>
+</a>
+
+<a href="https://www.linkedin.com/in/jai-agrawal-b70b1433b"
+       target="_blank">
+        <button class="btn">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </button>
+    </a>
+                    
+                  <a href="#contact">
+    <button class="btn">
+        Hire Me
+    </button>
+</a>
+
+                <a href="resume/resume.pdf" download>
+                    <button class="btn">
+                        Download CV
+                    </button>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- About -->
+
+<section id="about"
+         class="glass"
+         data-aos="fade-right">
+
+    <h2>About Me</h2>
+
+    <div class="about-content">
+
+        <p>🎓 B.Tech Information Technology Student (2023–2027)</p>
+
+        <p>☕ Passionate Java Developer</p>
+
+        <p>🚀 Spring Boot Backend Developer</p>
+
+        <p>⚛️ React Developer</p>
+
+        <p>🗄️ MySQL Enthusiast</p>
+
+        <p>💻 Full Stack Web Developer</p>
+
+        <p>🌟 Passionate About Modern Web Technologies</p>
+
+        <p>📚 Continuously Learning New Technologies</p>
+
+    </div>
+
+</section>
+
+    <!-- Education -->
+
+    <section id="education"
+         class="glass"
+         data-aos="fade-up">
+
+    <h2>Education</h2>
+
+    <div class="education-card">
+
+        <h3>B.Tech in Information Technology</h3>
+
+        <p>
+            Dr. A.P.J. Abdul Kalam Technical University
+        </p>
+
+        <span>2023 - 2027</span>
+
+    </div>
+
+    <div class="education-card">
+
+        <h3>Class 10th</h3>
+
+        <p>Laughing Buddha Academy</p>
+
+        <p>
+            CBSE Board
+        </p>
+
+        <span>2020</span>
+    </div>
+
+    <div class="education-card">
+
+        <h3>Class 12th</h3>
+
+        <p>Laughing Buddha Academy</p>
+
+        <p>CBSE Board</p>
+
+        <span>2022</span>
+
+    </div>
+
+</section>
+
+    <!-- Skills/Technology Stack -->
+
+    <section id="skills"
+             class="glass"
+             data-aos="fade-left">
+
+        <h2>Skills</h2>
+
+        <div class="skill">
+            <span>Java</span>
+            <div class="bar">
+                <div class="progress java"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Spring Boot</span>
+            <div class="bar">
+                <div class="progress spring"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>MySQL</span>
+            <div class="bar">
+                <div class="progress mysql"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span>FULL STACK</span>
+            <div class="bar">
+                <div class="progress fullstack"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>React</span>
+            <div class="bar">
+                <div class="progress react"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>MongoDB</span>
+            <div class="bar">
+                <div class="progress mongo"></div>
+            </div>
+        </div>
+
+        <h2>Technology Stack</h2>
+
+<div class="skill-icons">
+
+    <div class="icon">
+        <img src="images/java.jpg">
+        <p>Java</p>
+    </div>
+
+    <div class="icon">
+        <img src="images/spring.jpg">
+        <p>Spring Boot</p>
+    </div>
+
+    <div class="icon">
+        <img src="images/react.jpg">
+        <p>React</p>
+    </div>
+
+    <div class="icon">
+        <img src="images/mysql.jpg">
+        <p>MySQL</p>
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- Project Filter -->
+
+    <section id="projects" class="glass">
+
+        <h2>Projects</h2>
+
+        <div class="filters">
+
+            <button onclick="filterProject('all')">
+                All
+            </button>
+
+            <button onclick="filterProject('java')">
+                Java
+            </button>
+
+            <button onclick="filterProject('web')">
+                Web
+            </button>
+
+        </div>
+
+        <div class="project-container">
+
+            <div class="project-card web">
+                <img src="images/calculator.jpg">
+                <h3>Calculator</h3>
+                <p>Scientific calculator.</p>
+            </div>
+
+            <div class="project-card web">
+                <img src="images/ecommerce.png">
+                <h3>E-Commerce Website</h3>
+                <p>Shopping website.</p>
+            </div>
+
+            <div class="project-card web">
+                <img src="images/portfolio.png">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Timeline -->
+
+    <section id="timeline"
+             class="glass">
+
+        <h2>Journey</h2>
+
+        <div class="timeline-item">
+            <h3>2023</h3>
+            <p>Started B.Tech.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2024</h3>
+            <p>Learned Java.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2025</h3>
+            <p>Started Spring Boot.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2026</h3>
+            <p>Built Full Stack Projects.</p>
+        </div>
+
+    </section>
+
+    <!-- Blog -->
+
+    <section id="blog"
+             class="glass">
+
+        <h2>Blog</h2>
+
+        <div class="blog-card">
+            <h3>Learning Spring Boot</h3>
+            <p>
+                My journey learning backend development.
+            </p>
+        </div>
+
+        <div class="blog-card">
+            <h3>React Journey</h3>
+            <p>
+                Building modern user interfaces.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Certificates -->
+
+    <section id="certificate"
+             class="glass">
+
+        <h2>Certificates</h2>
+
+        <div class="gallery">
+
+    <div class="certificate-card">
+        <img src="images/AI for Beginners.png" alt="AI for Beginners">
+        <h3>AI for Beginners</h3>
+        <p>Certificate of completion.</p>
+    </div>
+
+    <div class="certificate-card">
+        <img src="images/react-cert.jpg" alt="React Certificate">
+        <h3>React Certificate</h3>
+    </div>
+
+    <div class="certificate-card">
+        <img src="images/aws-cert.jpg" alt="AWS Certificate">
+        <h3>AWS Certificate</h3>
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- Resume -->
+    
+    <section id="resume" class="glass">
+
+        <h2>Resume</h2>
+
+        <a href="resume/resume.pdf" download>
+            <button class="download-btn">
+                Download Resume
+            </button>
+        </a>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact"
+             class="glass">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required>
+
+            <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required>
+
+            <textarea
+            name="message"
+            placeholder="Your Message"
+            required></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+   <!-- Footer -->
+
+<footer>
+
+    <p>
+        © 2026 Jai Agrawal. All Rights Reserved.
+    </p>
+
+    <div class="social">
+
+        <a href="https://www.linkedin.com/in/jai-agrawal-b70b1433b" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/jaiagrawal2004" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+    </div>
+
+</footer>
+
+    
+    <!-- Particles -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
