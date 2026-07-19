@@ -90,29 +90,6 @@ if (localStorage.getItem("theme") === "light") {
 }
 
 // ======================
-// Visitor Counter
-// ======================
-
-let visits =
-    localStorage.getItem("visits");
-
-if (!visits) {
-    visits = 1;
-} else {
-    visits++;
-}
-
-localStorage.setItem("visits", visits);
-
-const visitor =
-    document.getElementById("visitorCount");
-
-if (visitor) {
-    visitor.innerHTML =
-        "Visitors : " + visits;
-}
-
-// ======================
 // Music Button
 // ======================
 
@@ -230,7 +207,7 @@ function filterProject(type) {
 // Replace YOUR_USERNAME
 
 fetch(
-    "https://api.github.com/users/YOUR_USERNAME/repos"
+    "https://api.github.com/users/jaiagrawal2004/repos"
 )
 
 .then(response => response.json())
@@ -279,9 +256,7 @@ fetch(
 // EmailJS
 // ======================
 
-// Replace with your values
-
-emailjs.init("YOUR_PUBLIC_KEY");
+emailjs.init("9gDT-CUOaQLxSIP2I");
 
 document
 .getElementById("contactForm")
@@ -291,9 +266,9 @@ document
 
     emailjs.sendForm(
 
-        "YOUR_SERVICE_ID",
+        "service_vhyeirg",
 
-        "YOUR_TEMPLATE_ID",
+        "template_rthxn7h",
 
         this
 
