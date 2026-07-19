@@ -1,7 +1,5 @@
 # 🌐 Jai Agrawal - Personal Portfolio
 
-# 🌐 Jai Agrawal - Personal Portfolio
-
 ![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
