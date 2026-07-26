@@ -981,3 +981,12 @@ width:100%;
 }
 
 }
+
+.section-description{
+    max-width: 700px;
+    margin: 15px auto 40px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #d7d7d7;
+}
