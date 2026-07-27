@@ -201,58 +201,6 @@ function filterProject(type) {
 }
 
 // ======================
-// GitHub API
-// ======================
-
-// Replace YOUR_USERNAME
-
-fetch(
-    "https://api.github.com/users/jaiagrawal2004/repos"
-)
-
-.then(response => response.json())
-
-.then(data => {
-
-    let output = "";
-
-    data.slice(0, 6).forEach(repo => {
-
-        output += `
-
-        <div class="project-card">
-
-            <h3>${repo.name}</h3>
-
-            <p>
-            ${repo.description || "No description"}
-            </p>
-
-            <a href="${repo.html_url}"
-               target="_blank">
-
-               View Repository
-
-            </a>
-
-        </div>
-
-        `;
-    });
-
-    document.getElementById(
-        "githubProjects"
-    ).innerHTML = output;
-
-})
-
-.catch(error => {
-
-    console.log(error);
-
-});
-
-// ======================
 // EmailJS
 // ======================
 
@@ -398,6 +346,8 @@ renderer.domElement.style.left =
 
 renderer.domElement.style.zIndex =
     "-2";
+
+renderer.domElement.style.pointerEvents = "none";
 
 document.body.appendChild(
     renderer.domElement
