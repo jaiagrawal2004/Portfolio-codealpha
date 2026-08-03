@@ -103,7 +103,7 @@ nav{
     top:0;
     left:0;
     width:100%;
-    padding:18px 10%;
+    padding:18px 40px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -116,12 +116,15 @@ nav{
     font-size:30px;
     font-weight:700;
     color:#00adb5;
+    margin-right: 40px;
 }
 
 .nav-links{
     display:flex;
     list-style:none;
     gap:28px;
+    margin-left: auto;
+    margin-right: 35px;
 }
 
 .nav-links a{
